@@ -3,14 +3,18 @@ Version: 0.8.5
 Architecture: all
 Maintainer: Pine OS project <pine-os@localhost>
 Installed-Size: 3364
-Depends: python3, python3-gi, gir1.2-gtk-3.0, gir1.2-gtk-4.0, gir1.2-adw-1, nemo, xfce4-panel, xfce4-notifyd, picom
+Depends: python3, python3-gi, gir1.2-gtk-3.0, gir1.2-gtk-4.0, gir1.2-adw-1, nemo, xfce4-panel, xfce4-notifyd, picom,
+ file-roller, nemo-fileroller, 7zip, unar, zip, unzip, wmctrl, xdotool, fonts-inter, gettext-base,
+ 7zip-rar, unrar, bzip2, xz-utils, zstd, lzip, lz4, lzop, lrzip, brotli, ncompress, cabextract,
+ arj, lhasa, unace, unalz, rpm2cpio, binutils, wine, wine64, fonts-wine, wine-binfmt, binfmt-support,
+ winetricks, zenity, icoextract-thumbnailer, gamemode, timeshift
 Priority: optional
 Section: x11
 Filename: pool/main/p/pine-desktop/pine-desktop_0.8.5_all.deb
-Size: 1257728
-SHA256: 571cd8c499bbc88ce372fb6adfcc620874c2a371d8dc6546bd54232428dbaa30
-SHA1: 6855462e0fc696e419f85e8e7b714e1f4ace7b0b
-MD5sum: c05babb5ee1469d6e281fbb4a8cc1ef5
+Size: 1257944
+SHA256: 7618e7da68e7a7704a55065ff70e41ff23d19223c1bd5ca5f3d8605f9c465ac9
+SHA1: ad6af711fac4e6f6ee74f14469b37a895bee3a00
+MD5sum: fc9c0dc5af96ea17f2b12fcaa393e0ec
 Description: Pine OS desktop: settings, Quick Settings, themes and setup
  Pine Settings, Pine Quick Settings and the notification center, the Pine themes,
  window frames and boot screens, and how the Pine desktop is set up (taskbar, Files,
