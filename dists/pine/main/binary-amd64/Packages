@@ -1,5 +1,5 @@
 Package: pine-desktop
-Version: 0.8.5
+Version: 0.8.6
 Architecture: all
 Maintainer: Pine OS project <pine-os@localhost>
 Installed-Size: 3364
@@ -10,34 +10,24 @@ Depends: python3, python3-gi, gir1.2-gtk-3.0, gir1.2-gtk-4.0, gir1.2-adw-1, nemo
  winetricks, zenity, icoextract-thumbnailer, gamemode, timeshift
 Priority: optional
 Section: x11
-Filename: pool/main/p/pine-desktop/pine-desktop_0.8.5_all.deb
-Size: 1257944
-SHA256: 7618e7da68e7a7704a55065ff70e41ff23d19223c1bd5ca5f3d8605f9c465ac9
-SHA1: ad6af711fac4e6f6ee74f14469b37a895bee3a00
-MD5sum: fc9c0dc5af96ea17f2b12fcaa393e0ec
+Filename: pool/main/p/pine-desktop/pine-desktop_0.8.6_all.deb
+Size: 1263760
+SHA256: d5406cbfab1fcbabbce981bec904d830878dc5a232e6b0c3d5ed8be752dee3e6
+SHA1: 0ae01383df740db2ff3a25731222fafebaf84028
+MD5sum: 895e29aae69ad18cae147ea721adee1c
 Description: Pine OS desktop: settings, Quick Settings, themes and setup
  Pine Settings, Pine Quick Settings and the notification center, the Pine themes,
  window frames and boot screens, and how the Pine desktop is set up (taskbar, Files,
  Windows programs, archives, updates). Updating this package brings the changes of a
  new Pine OS version to an installed system.
 Pine-News:
- - Files is Nemo everywhere: the desktop icons, opening folders and the trash too
- - Windows programs: .exe and .msi files open with Wine, with a right-click Install option
- - Right-click Extract for every archive type (.rar, .7z, .zip, .tar and more)
- - New notification center: smoother, and it stays in place when you clear notifications
- - Calmer desktop: Inter font everywhere, small 3px corners, square corners on maximized windows
- - Window previews on the taskbar, Snap layouts with Super+Z, Game mode in Quick Settings
- - Restore points before updates (Timeshift), phone pairing (Valent)
- - The boot menu is hidden: Pine OS starts straight away, restart into Windows from Settings
- - Pine OS updates now come through Pine Update
+ - Quick Settings open again from the network and sound button on the taskbar
+ - Taskbar buttons get a light tint under the mouse, so you see what you point at
+ - Softer corners: 5px everywhere (windows, buttons, menus, notifications)
+ - Updating from Pine OS 0.8.4 brings every new program of 0.8.5 too
 Pine-News-hu:
- - A Fájlok mindenhol a Nemo: az asztali ikonok, a mappák megnyitása és a Kuka is
- - Windows-programok: az .exe és .msi fájlok Wine-nal nyílnak, jobb klikkes Telepítés opcióval
- - Jobb klikkes Kicsomagolás minden archívumtípusra (.rar, .7z, .zip, .tar és még sok más)
- - Új értesítési központ: simább, és nem ugrik el, ha törlöd az értesítéseket
- - Nyugodtabb asztal: Inter betűtípus mindenhol, finom 3px-es sarkok, maximalizált ablakon szögletes
- - Ablakelőnézet a tálcán, ablakelrendezés Super+Z-vel, Játék mód a Gyorsbeállításokban
- - Visszaállítási pontok frissítés előtt (Timeshift), telefon párosítás (Valent)
- - Rejtett rendszerbetöltő menü: a Pine OS rögtön indul, Windowsba a Beállításokból lehet újraindítani
- - A Pine OS frissítései mostantól a Pine Update-ben érkeznek
+ - A tálcán a hálózat és hang gombbal ismét megnyílnak a Gyorsbeállítások
+ - A tálca gombjai finoman kiemelődnek az egér alatt, így látod, mire mutatsz
+ - Lágyabb sarkok: mindenhol 5px (ablakok, gombok, menük, értesítések)
+ - A Pine OS 0.8.4-ről frissítve a 0.8.5 összes új programja is felkerül
 
