@@ -11,21 +11,23 @@ Depends: python3, python3-gi, gir1.2-gtk-3.0, gir1.2-gtk-4.0, gir1.2-adw-1, nemo
 Priority: optional
 Section: x11
 Filename: pool/main/p/pine-desktop/pine-desktop_0.8.6_all.deb
-Size: 1263760
-SHA256: d5406cbfab1fcbabbce981bec904d830878dc5a232e6b0c3d5ed8be752dee3e6
-SHA1: 0ae01383df740db2ff3a25731222fafebaf84028
-MD5sum: 895e29aae69ad18cae147ea721adee1c
+Size: 1264056
+SHA256: a89081473cc77dd7591f7e88265e76b13a8208dcbb1cdeaf4e852923e445fe51
+SHA1: d31b90e2d365dc0d837c28f6d329a8716e4f1d28
+MD5sum: 4f8c5e20a49f7ff2ffcac9387dcd330f
 Description: Pine OS desktop: settings, Quick Settings, themes and setup
  Pine Settings, Pine Quick Settings and the notification center, the Pine themes,
  window frames and boot screens, and how the Pine desktop is set up (taskbar, Files,
  Windows programs, archives, updates). Updating this package brings the changes of a
  new Pine OS version to an installed system.
 Pine-News:
+ - Pine Update asks for the administrator password again when installing (it stopped with an error)
  - Quick Settings open again from the network and sound button on the taskbar
  - Taskbar buttons get a light tint under the mouse, so you see what you point at
  - Softer corners: 5px everywhere (windows, buttons, menus, notifications)
  - Updating from Pine OS 0.8.4 brings every new program of 0.8.5 too
 Pine-News-hu:
+ - A Pine Update telepítéskor ismét kéri a rendszergazdai jelszót (eddig hibával leállt)
  - A tálcán a hálózat és hang gombbal ismét megnyílnak a Gyorsbeállítások
  - A tálca gombjai finoman kiemelődnek az egér alatt, így látod, mire mutatsz
  - Lágyabb sarkok: mindenhol 5px (ablakok, gombok, menük, értesítések)
