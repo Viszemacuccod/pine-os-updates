@@ -1,7 +1,7 @@
 # Pine OS updates
 
 The apt repository Pine OS gets its updates from (Settings > Pine Update).
-Latest Pine OS version: **0.8.6**
+Latest Pine OS version: **0.8.7 stable**
 
 Installed Pine OS systems already list it. By hand (`/etc/apt/sources.list.d/pine.sources`):
 
@@ -14,4 +14,4 @@ Signed-By: /usr/share/keyrings/pine-archive-keyring.gpg
 ```
 
 The signing key: [pine-archive-keyring.gpg](pine-archive-keyring.gpg)
-(fingerprint `6DE72B864CA6DF3F2EFDD5E76E3C3098388027E6`).
+(fingerprint `74ADDB08DE68F1D8805C428E3B2890538E4C0E2F`).

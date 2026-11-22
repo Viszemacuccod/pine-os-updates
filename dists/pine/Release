@@ -1,19 +1,19 @@
 Origin: Pine OS
 Label: Pine OS
 Codename: pine
-Date: Fri, 20 Nov 2026 12:58:03 UTC
+Date: Sun, 22 Nov 2026 02:20:52 UTC
 Architectures: amd64
 Components: main
 Description: Pine OS updates
 MD5Sum:
- 4167b03a2909073106c7ca7768780e95 2089 main/binary-amd64/Packages
- e2e6f1829a0b9abe1398c18b1c18172d 1217 main/binary-amd64/Packages.gz
+ 28947a5f09a4b8a03dfb08674aef3975 4864 main/binary-amd64/Packages
+ cb0599dbc9e53eea91357016b5487577 2553 main/binary-amd64/Packages.gz
  9229f696acc5c25144f008ef10347160 96 main/binary-amd64/Release
 SHA1:
- e47b36713cfff9d12d869a6148e354b5a77f637c 2089 main/binary-amd64/Packages
- b33e77622c9d30762bcb67d2fab7d36d323bbcde 1217 main/binary-amd64/Packages.gz
+ e778a49a02980e8d44e07c8cef53b585b8c91c78 4864 main/binary-amd64/Packages
+ 7d0de2e674787e74bc4aa90806f1d5c8df07deb4 2553 main/binary-amd64/Packages.gz
  8e859f48985804caf71cf3f806ea7be10929ca26 96 main/binary-amd64/Release
 SHA256:
- 044fc245e8ad6185f7be08e3545064ffb6f0acd9a6e3bff5ffb3646f0727464a 2089 main/binary-amd64/Packages
- f34d95c5b8f5548fbab685b31ab16f3c726db3b0f6d4fb2ff7cdea629fd98c41 1217 main/binary-amd64/Packages.gz
+ 1b3f58400566746d6c052abdb3083f696d740377d84ce66e11b144ba013204ba 4864 main/binary-amd64/Packages
+ d3714bc7b8deaba5398e293c497cbed234c80faff66c60238ed9f0c79fdaf9a8 2553 main/binary-amd64/Packages.gz
  43eebf7cc29aec04ac5ac8a2270902e569df9398f7c0f9faacb46fa0be4bcd36 96 main/binary-amd64/Release

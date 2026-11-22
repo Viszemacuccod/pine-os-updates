@@ -1,35 +1,49 @@
 Package: pine-desktop
-Version: 0.8.6
+Version: 0.8.7
 Architecture: all
 Maintainer: Pine OS project <pine-os@localhost>
-Installed-Size: 3364
+Installed-Size: 3568
 Depends: python3, python3-gi, gir1.2-gtk-3.0, gir1.2-gtk-4.0, gir1.2-adw-1, nemo, xfce4-panel, xfce4-notifyd, picom,
- file-roller, nemo-fileroller, 7zip, unar, zip, unzip, wmctrl, xdotool, fonts-inter, gettext-base,
+ file-roller, nemo-fileroller, 7zip, unar, zip, unzip, wmctrl, xdotool, fonts-inter, gettext-base, libglib2.0-bin,
  7zip-rar, unrar, bzip2, xz-utils, zstd, lzip, lz4, lzop, lrzip, brotli, ncompress, cabextract,
  arj, lhasa, unace, unalz, rpm2cpio, binutils, wine, wine64, fonts-wine, wine-binfmt, binfmt-support,
- winetricks, zenity, icoextract-thumbnailer, gamemode, timeshift
+ winetricks, zenity, icoextract-thumbnailer, gamemode, timeshift, gir1.2-lightdm-1, slick-greeter
 Priority: optional
 Section: x11
-Filename: pool/main/p/pine-desktop/pine-desktop_0.8.6_all.deb
-Size: 1264056
-SHA256: a89081473cc77dd7591f7e88265e76b13a8208dcbb1cdeaf4e852923e445fe51
-SHA1: d31b90e2d365dc0d837c28f6d329a8716e4f1d28
-MD5sum: 4f8c5e20a49f7ff2ffcac9387dcd330f
+Filename: pool/main/p/pine-desktop/pine-desktop_0.8.7_all.deb
+Size: 1291160
+SHA256: 304a16c5d206bda9e88b1e8b92facd1dfa81623404a1ae241d57f51003c86c1b
+SHA1: d17ee2f5f4900f506e3f4c54bce6a5b3684d4430
+MD5sum: 579b89a604fde43f64e614abeef008e9
 Description: Pine OS desktop: settings, Quick Settings, themes and setup
  Pine Settings, Pine Quick Settings and the notification center, the Pine themes,
  window frames and boot screens, and how the Pine desktop is set up (taskbar, Files,
  Windows programs, archives, updates). Updating this package brings the changes of a
  new Pine OS version to an installed system.
 Pine-News:
- - Pine Update asks for the administrator password again when installing (it stopped with an error)
- - Quick Settings open again from the network and sound button on the taskbar
- - Taskbar buttons get a light tint under the mouse, so you see what you point at
- - Softer corners: 5px everywhere (windows, buttons, menus, notifications)
- - Updating from Pine OS 0.8.4 brings every new program of 0.8.5 too
+ - A new sign-in and lock screen: a big clock, then your picture and password in the middle, the people on this computer at the bottom left, keyboard layout, network, accessibility and power at the bottom right
+ - One power button in the Start menu: Lock, Sleep, Sign out, Restart and Shut down appear in the middle of the screen. Ctrl+Alt+Delete and the computer's own power button open it too
+ - Quick Settings and the calendar sit in the bottom right corner; an Ethernet tile turns the wired network on or off; the battery is shown under the sliders
+ - The title bar buttons of every app look the same: grey squares with 5 px corners and thin symbols
+ - Updates now bring Pine's new default settings to every computer (before, a computer installed from an older version kept the old ones)
+ - Typing on the desktop selects an icon without a search box popping up over the clock
+ - Middle-click an app on the taskbar to open a new window of it, like on Windows (it used to close the app)
+ - Alt+Tab shows a picture of every window; keep Alt held and press Tab to choose, a quick Alt+Tab switches straight away
+ - Screenshots like on Windows: Super+Shift+S, then drag over an area or click a window. Print takes the whole screen, Alt+Print the active window. Each one is copied (Ctrl+V) and saved in Pictures
+ - A note when the disk is almost full, with a button to clean up
+ - Game mode pauses everything that isn't needed: no window pictures (taskbar and Alt+Tab), no pop-up notifications, desktop icons and background helpers rest until you turn it off
+ - The selection box (drag with the left mouse button on the desktop or in Files) is see-through again, with a thin accent line
 Pine-News-hu:
- - A Pine Update telepítéskor ismét kéri a rendszergazdai jelszót (eddig hibával leállt)
- - A tálcán a hálózat és hang gombbal ismét megnyílnak a Gyorsbeállítások
- - A tálca gombjai finoman kiemelődnek az egér alatt, így látod, mire mutatsz
- - Lágyabb sarkok: mindenhol 5px (ablakok, gombok, menük, értesítések)
- - A Pine OS 0.8.4-ről frissítve a 0.8.5 összes új programja is felkerül
+ - Új bejelentkező és zárolási képernyő: nagy óra, majd középen a képed és a jelszó, bal alul a gép felhasználói, jobb alul billentyűzetkiosztás, hálózat, akadálymentesítés és kikapcsolás
+ - Egy főkapcsoló gomb a Start menüben: a Zárolás, az Alvó mód, a Kijelentkezés, az Újraindítás és a Leállítás a képernyő közepén jelenik meg. A Ctrl+Alt+Delete és a gép bekapcsológombja is ezt nyitja
+ - A Gyorsbeállítások és a naptár a jobb alsó sarokba simul; Ethernet csempe a vezetékes hálózat ki-be kapcsolásához; az akkumulátor a csúszkák alatt látszik
+ - Minden alkalmazás címsorgombjai egyformák: szürke négyzetek 5px-es sarkokkal, vékony jelekkel
+ - A frissítések mostantól minden gépre elhozzák a Pine új alapbeállításait (eddig a régebbi verzióról telepített gépeken a régiek maradtak)
+ - Az asztalon gépelve kijelölődik az ikon, és nem ugrik fel keresőmező az óra fölé
+ - Görgőkattintás a tálcán egy alkalmazásra: új ablakot nyit belőle, mint a Windowsban (eddig bezárta)
+ - Az Alt+Tab minden ablakról képet mutat; az Altot nyomva tartva a Tabbal választhatsz, egy gyors Alt+Tab azonnal vált
+ - Képernyőkép, mint a Windowsban: Super+Shift+S, majd húzd át egy területen, vagy kattints egy ablakra. A Print az egész képernyőt, az Alt+Print az aktív ablakot fényképezi. Mindegyik a vágólapra kerül (Ctrl+V), és a Képek mappába mentődik
+ - Figyelmeztetés, ha majdnem megtelt a lemez, egy Takarítás gombbal
+ - A Játék mód szünetelteti, ami nem kell: nincs ablakelőnézet (tálca, Alt+Tab), nincsenek felugró értesítések, az asztali ikonok és a háttérfolyamatok pihennek, amíg ki nem kapcsolod
+ - A kijelölő téglalap (bal egérgombbal húzva az asztalon vagy a Fájlokban) ismét átlátszó, vékony kiemelőszínű kerettel
 
