@@ -1,8 +1,8 @@
 Package: pine-desktop
-Version: 0.8.8.2
+Version: 0.8.8.3
 Architecture: all
 Maintainer: Pine OS project <pine-os@localhost>
-Installed-Size: 3772
+Installed-Size: 4144
 Depends: python3, python3-gi, gir1.2-gtk-3.0, gir1.2-gtk-4.0, gir1.2-adw-1, nemo, xfce4-panel, xfce4-notifyd, picom,
  file-roller, nemo-fileroller, 7zip, unar, zip, unzip, wmctrl, xdotool, fonts-inter, gettext-base, libglib2.0-bin,
  7zip-rar, unrar, bzip2, xz-utils, zstd, lzip, lz4, lzop, lrzip, brotli, ncompress, cabextract,
@@ -12,19 +12,35 @@ Depends: python3, python3-gi, gir1.2-gtk-3.0, gir1.2-gtk-4.0, gir1.2-adw-1, nemo
 Recommends: nvidia-detect, firmware-sof-signed
 Priority: optional
 Section: x11
-Filename: pool/main/p/pine-desktop/pine-desktop_0.8.8.2_all.deb
-Size: 1325340
-SHA256: eb139d973cfab8367af07f10a492742041078a57b6852fa3b5ed1294ecf29324
-SHA1: d35c24b9334a2d7c33b58d0407a9f7a2baa2b87f
-MD5sum: dfa7544e24ecdff05cd8cb88758b2644
+Filename: pool/main/p/pine-desktop/pine-desktop_0.8.8.3_all.deb
+Size: 1562988
+SHA256: 7aa5153acad7d5da5027ad66daa822f778cb800a65af68910be4422718f79c63
+SHA1: 097fee93376d9cdb92b05ec2904a4c12317e16bc
+MD5sum: 047dbdc5ed0c6c24cf90748a1e82c015
 Description: Pine OS desktop: settings, Quick Settings, themes and setup
  Pine Settings, Pine Quick Settings and the notification center, the Pine themes,
  window frames and boot screens, and how the Pine desktop is set up (taskbar, Files,
  Windows programs, archives, updates). Updating this package brings the changes of a
  new Pine OS version to an installed system.
-Pine-Version-Name: 0.8.8.2 patch2
+Pine-Version-Name: 0.8.8.3 patch3
 Pine-News:
- - Fixed: Pine Update could not install updates ("Pine OS was not updated"); it now installs them the same way "sudo apt upgrade" does and asks for your password once
+ - Win+. (or Win+;) opens an emoji picker: search, click, and the emoji is typed where you were
+ - Settings > Devices > Mouse & touchpad > Windows feel: scrolling, tapping and right-click work like on a Windows laptop
+ - Settings > Personalization > Colors: choose your own window color and text color for dark and for light mode; everything else (cards, menus, lines, the taskbar) follows. "Reset" goes back to Pine's colors
+ - Live background: the waves of the Pine wallpaper drift slowly (Settings > Personalization). It stands still on battery, in Game mode and when an app is full screen, and uses about 1% of one processor core
+ - A soft start-up chime and a short notification sound in Pine's own style (Settings > System > Sound turns them off)
+ - Quicker, calmer motion everywhere: windows, menus, Quick Settings, the notification center, the power menu and the sign-in screen now take 70-160 ms instead of 150-420 ms
+ - The notification center's Do not disturb switch looks like the switches in Settings (track, light knob, accent when on), in a card like the rows in Settings
+ - The installer shows no spinner and no "Loading..." while its last page is getting ready
+ - If Pine's sign-in screen fails or hangs, the backup screen starts at once; after two failures in a row it is used straight away, and a note tells you after signing in. An update tries Pine's screen again
 Pine-News-hu:
- - Javítva: a Pine Update nem tudta telepíteni a frissítéseket („A Pine OS nem frissült”); mostantól úgy telepít, mint a „sudo apt upgrade”, és egyszer kéri a jelszavadat
+ - A Win+. (vagy Win+;) hangulatjel-választót nyit: keress, kattints, és a hangulatjel oda kerül, ahol voltál
+ - Beállítások > Eszközök > Egér és érintőpad > Windows-érzet: a görgetés, az érintés és a jobb kattintás úgy működik, mint egy Windows-laptopon
+ - Beállítások > Testreszabás > Színek: választhatsz saját ablakszínt és szövegszínt a sötét és a világos módhoz; minden más (kártyák, menük, vonalak, a tálca) ehhez igazodik. A „Visszaállítás” a Pine színeit hozza vissza
+ - Élő háttér: a Pine háttérkép hullámai lassan úsznak (Beállítások > Testreszabás). Akkumulátoron, Játékmódban és teljes képernyős alkalmazásnál megáll, és egy processzormag kb. 1%-át használja
+ - Halk indulási csengő és rövid értesítési hang a Pine saját stílusában (a Beállítások > Rendszer > Hang kikapcsolja)
+ - Gyorsabb, nyugodtabb mozgás mindenhol: az ablakok, menük, a Gyorsbeállítások, az értesítési központ, a kikapcsolás menü és a bejelentkező képernyő mostantól 70-160 ms alatt mozog 150-420 ms helyett
+ - Az értesítési központ Ne zavarjanak kapcsolója úgy néz ki, mint a Beállítások kapcsolói (sáv, világos gomb, bekapcsolva színes), a Beállítások soraihoz hasonló kártyában
+ - A telepítő nem mutat forgó kört és „Loading...” feliratot, amíg az utolsó oldala készül
+ - Ha a Pine bejelentkező képernyője elromlik vagy lefagy, azonnal a tartalék indul; két egymás utáni hiba után rögtön azt használja, és bejelentkezés után egy üzenet szól. Egy frissítés újra a Pine képernyőjét próbálja
 

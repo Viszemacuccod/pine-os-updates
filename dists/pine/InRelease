@@ -4,26 +4,26 @@ Hash: SHA512
 Origin: Pine OS
 Label: Pine OS
 Codename: pine
-Date: Mon, 23 Nov 2026 13:55:07 UTC
+Date: Mon, 23 Nov 2026 15:17:02 UTC
 Architectures: amd64
 Components: main
 Description: Pine OS updates
 MD5Sum:
- 88adbd8cbb311929a9a142ad16b33ec4 1807 main/binary-amd64/Packages
- e84dc454889e4230cc75e0acf45e8ba5 1063 main/binary-amd64/Packages.gz
+ f223232df75332e7130ee04afa39808a 4477 main/binary-amd64/Packages
+ 847f811af715f2487b9744349171722b 2355 main/binary-amd64/Packages.gz
  9229f696acc5c25144f008ef10347160 96 main/binary-amd64/Release
 SHA1:
- ad24092d0fcb83afb6590cf42f4a07ed0cf07634 1807 main/binary-amd64/Packages
- 27898e026a6a3202e6f834dbe0cc6ad237278b02 1063 main/binary-amd64/Packages.gz
+ f83c0c596514b3d1001e357759242c977ffedce2 4477 main/binary-amd64/Packages
+ 20eb2d9316b52cfa0c12338ebe0e7b81a3acbc19 2355 main/binary-amd64/Packages.gz
  8e859f48985804caf71cf3f806ea7be10929ca26 96 main/binary-amd64/Release
 SHA256:
- 346dd8b3798e86a79de477cab3ff687bdce98b14ceff063c9e8d03dc376ef7d1 1807 main/binary-amd64/Packages
- 07093ac8772ce35331a647c820682bd660133abca10baa50beb983cb680f7b4a 1063 main/binary-amd64/Packages.gz
+ c5d8fe01a81623f7783b830504bf2983cad351d599f9c4d1d132ad72666e1392 4477 main/binary-amd64/Packages
+ 9b32b23f12cc042fe5823b986a4545303f5afdf44e65755087f59e594ff98cb1 2355 main/binary-amd64/Packages.gz
  43eebf7cc29aec04ac5ac8a2270902e569df9398f7c0f9faacb46fa0be4bcd36 96 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQR0rdsI3mjx2IBcQo47KJBTjkwOLwUCawRFuwAKCRA7KJBTjkwO
-L3hIAP9qfplwGcOiuBOpqKhUbWK4uus2UekH9pbU699ESzwnkgD/RP4emf4hO4Xg
-uQWkIlW4OAoJjcN7w3vM4QwKAMbfOQg=
-=QvjD
+iHUEARYKAB0WIQR0rdsI3mjx2IBcQo47KJBTjkwOLwUCawRY7gAKCRA7KJBTjkwO
+LzUgAQD43BIXsmc1vKw5YmXgxafbRp+JunaPfWiPyfVv7vSqdQD8D4zXzhZbzEv2
+rymxXP8i6L7XWgBwZEWQ3Vj6tF82WAY=
+=Nk8W
 -----END PGP SIGNATURE-----

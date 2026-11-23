@@ -1,7 +1,7 @@
 # Pine OS updates
 
 The apt repository Pine OS gets its updates from (Settings > Pine Update).
-Latest Pine OS version: **0.8.8.2 patch2**
+Latest Pine OS version: **0.8.8.3 patch3**
 
 Installed Pine OS systems already list it. By hand (`/etc/apt/sources.list.d/pine.sources`):
 
