@@ -1,5 +1,5 @@
 Package: pine-desktop
-Version: 0.8.8
+Version: 0.8.8.1
 Architecture: all
 Maintainer: Pine OS project <pine-os@localhost>
 Installed-Size: 3768
@@ -12,33 +12,23 @@ Depends: python3, python3-gi, gir1.2-gtk-3.0, gir1.2-gtk-4.0, gir1.2-adw-1, nemo
 Recommends: nvidia-detect, firmware-sof-signed
 Priority: optional
 Section: x11
-Filename: pool/main/p/pine-desktop/pine-desktop_0.8.8_all.deb
-Size: 1325176
-SHA256: a1d80ededee6ae9c0213f021b86a79ce2a3f3c769b746d17b5831f36979ceddb
-SHA1: 979fb8d5b098ea6d7de7768841b0733055697925
-MD5sum: 5deaeed215d0c4a91cdd396a103a6f41
+Filename: pool/main/p/pine-desktop/pine-desktop_0.8.8.1_all.deb
+Size: 1324944
+SHA256: a1eb1e5ca0a463d119d4329226707bf1da8482c139b2c428098c614fee50d6c5
+SHA1: eaaae01b64b728ffca0ed9409d9684f7a4a997d9
+MD5sum: a872b8a9f924324c0bef90c46f0233af
 Description: Pine OS desktop: settings, Quick Settings, themes and setup
  Pine Settings, Pine Quick Settings and the notification center, the Pine themes,
  window frames and boot screens, and how the Pine desktop is set up (taskbar, Files,
  Windows programs, archives, updates). Updating this package brings the changes of a
  new Pine OS version to an installed system.
-Pine-Version-Name: 0.8.8 beta
+Pine-Version-Name: 0.8.8.1 patch1
 Pine-News:
- - Drivers in Settings > Devices > Drivers: Pine OS finds what this computer needs (graphics, Wi-Fi, sound, printers and scanners, fingerprint readers, game controllers, virtual machines, missing firmware) and installs it with one click. With Secure Boot on, it guides you through approving drivers like NVIDIA's
- - Firewall in Settings > Network & internet > Firewall: on by default on new installs; open or block any port (TCP, UDP or both), for incoming or outgoing connections, from any address
- - Recovery in Settings > System > Recovery: make your own restore points, go back to one, or reset this PC (keep your files, or remove everything)
- - Pine Update shows the version you have and the new one (for example 0.8.7-stable, current version, and 0.8.8-beta, new version)
- - Quick Settings and the notification center open and close smoothly: they fade in and rise from the taskbar
- - Quick Settings, the notification center, the power menu, Alt+Tab and pop-up notifications look like Pine Settings
- - Sound works on more laptops (Intel SOF sound firmware is included)
- - Desktop icons can be dragged to any box on the desktop and stay there, like on Windows (before, they jumped back)
+ - Fixed: on the sign-in screen the password box did nothing (Enter and the arrow button were ignored) because the list of people was empty
+ - The sign-in screen's background blur is smooth now, and the lock screen clock sits bottom left, no longer over the logo
+ - If Pine's sign-in screen ever fails to start, the backup sign-in screen takes over as intended (it could not be found before)
 Pine-News-hu:
- - Illesztőprogramok a Beállítások > Eszközök > Illesztőprogramok oldalon: a Pine OS megkeresi, mire van szüksége a gépnek (grafika, Wi-Fi, hang, nyomtatók és szkennerek, ujjlenyomat-olvasók, játékvezérlők, virtuális gépek, hiányzó firmware), és egy kattintással telepíti. Bekapcsolt Biztonságos rendszerindításnál végigvezet az olyan illesztőprogramok jóváhagyásán, mint az NVIDIA-é
- - Tűzfal a Beállítások > Hálózat és internet > Tűzfal oldalon: új telepítésen alapból bekapcsolva; bármely port megnyitható vagy tiltható (TCP, UDP vagy mindkettő), bejövő vagy kimenő kapcsolatokra, bármely címről
- - Helyreállítás a Beállítások > Rendszer > Helyreállítás oldalon: saját visszaállítási pontok, visszatérés egy korábbira, vagy a gép alaphelyzetbe állítása (a fájljaid megmaradnak, vagy minden törlődik)
- - A Pine Update mutatja a meglévő és az új verziót (például 0.8.7-stable, jelenlegi verzió, és 0.8.8-beta, új verzió)
- - A Gyorsbeállítások és az értesítési központ simán nyílik és záródik: beúsznak és felemelkednek a tálcáról
- - A Gyorsbeállítások, az értesítési központ, a kikapcsolás menü, az Alt+Tab és a felugró értesítések a Pine Beállításokhoz illő kinézetet kaptak
- - Több laptopon szól a hang (benne van az Intel SOF hangfirmware)
- - Az asztali ikonok bármelyik dobozba húzhatók az asztalon, és ott maradnak, mint a Windowsban (korábban visszaugrottak)
+ - Javítva: a bejelentkező képernyőn a jelszómező nem csinált semmit (az Enter és a nyíl gomb hatástalan volt), mert üres volt a felhasználók listája
+ - A bejelentkező képernyő háttérelmosása sima lett, a zárolt képernyő órája pedig balra lent van, nem a logó fölött
+ - Ha a Pine bejelentkező képernyője valaha nem indulna el, átveszi a tartalék bejelentkező képernyő, ahogy kell (korábban nem találta meg)
 
