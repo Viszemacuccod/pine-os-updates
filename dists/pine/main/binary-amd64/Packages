@@ -1,8 +1,8 @@
 Package: pine-desktop
-Version: 0.8.8.1
+Version: 0.8.8.2
 Architecture: all
 Maintainer: Pine OS project <pine-os@localhost>
-Installed-Size: 3768
+Installed-Size: 3772
 Depends: python3, python3-gi, gir1.2-gtk-3.0, gir1.2-gtk-4.0, gir1.2-adw-1, nemo, xfce4-panel, xfce4-notifyd, picom,
  file-roller, nemo-fileroller, 7zip, unar, zip, unzip, wmctrl, xdotool, fonts-inter, gettext-base, libglib2.0-bin,
  7zip-rar, unrar, bzip2, xz-utils, zstd, lzip, lz4, lzop, lrzip, brotli, ncompress, cabextract,
@@ -12,23 +12,19 @@ Depends: python3, python3-gi, gir1.2-gtk-3.0, gir1.2-gtk-4.0, gir1.2-adw-1, nemo
 Recommends: nvidia-detect, firmware-sof-signed
 Priority: optional
 Section: x11
-Filename: pool/main/p/pine-desktop/pine-desktop_0.8.8.1_all.deb
-Size: 1324944
-SHA256: a1eb1e5ca0a463d119d4329226707bf1da8482c139b2c428098c614fee50d6c5
-SHA1: eaaae01b64b728ffca0ed9409d9684f7a4a997d9
-MD5sum: a872b8a9f924324c0bef90c46f0233af
+Filename: pool/main/p/pine-desktop/pine-desktop_0.8.8.2_all.deb
+Size: 1325340
+SHA256: eb139d973cfab8367af07f10a492742041078a57b6852fa3b5ed1294ecf29324
+SHA1: d35c24b9334a2d7c33b58d0407a9f7a2baa2b87f
+MD5sum: dfa7544e24ecdff05cd8cb88758b2644
 Description: Pine OS desktop: settings, Quick Settings, themes and setup
  Pine Settings, Pine Quick Settings and the notification center, the Pine themes,
  window frames and boot screens, and how the Pine desktop is set up (taskbar, Files,
  Windows programs, archives, updates). Updating this package brings the changes of a
  new Pine OS version to an installed system.
-Pine-Version-Name: 0.8.8.1 patch1
+Pine-Version-Name: 0.8.8.2 patch2
 Pine-News:
- - Fixed: on the sign-in screen the password box did nothing (Enter and the arrow button were ignored) because the list of people was empty
- - The sign-in screen's background blur is smooth now, and the lock screen clock sits bottom left, no longer over the logo
- - If Pine's sign-in screen ever fails to start, the backup sign-in screen takes over as intended (it could not be found before)
+ - Fixed: Pine Update could not install updates ("Pine OS was not updated"); it now installs them the same way "sudo apt upgrade" does and asks for your password once
 Pine-News-hu:
- - Javítva: a bejelentkező képernyőn a jelszómező nem csinált semmit (az Enter és a nyíl gomb hatástalan volt), mert üres volt a felhasználók listája
- - A bejelentkező képernyő háttérelmosása sima lett, a zárolt képernyő órája pedig balra lent van, nem a logó fölött
- - Ha a Pine bejelentkező képernyője valaha nem indulna el, átveszi a tartalék bejelentkező képernyő, ahogy kell (korábban nem találta meg)
+ - Javítva: a Pine Update nem tudta telepíteni a frissítéseket („A Pine OS nem frissült”); mostantól úgy telepít, mint a „sudo apt upgrade”, és egyszer kéri a jelszavadat
 
