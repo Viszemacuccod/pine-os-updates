@@ -1,8 +1,8 @@
 Package: pine-desktop
-Version: 0.8.8.4
+Version: 0.8.8.5
 Architecture: all
 Maintainer: Pine OS project <pine-os@localhost>
-Installed-Size: 4232
+Installed-Size: 4248
 Depends: python3, python3-gi, gir1.2-gtk-3.0, gir1.2-gtk-4.0, gir1.2-adw-1, nemo, xfce4-panel, xfce4-notifyd, picom, xinput, x11-utils, mesa-utils,
  file-roller, nemo-fileroller, 7zip, unar, zip, unzip, wmctrl, xdotool, fonts-inter, gettext-base, libglib2.0-bin,
  7zip-rar, unrar, bzip2, xz-utils, zstd, lzip, lz4, lzop, lrzip, brotli, ncompress, cabextract,
@@ -12,35 +12,25 @@ Depends: python3, python3-gi, gir1.2-gtk-3.0, gir1.2-gtk-4.0, gir1.2-adw-1, nemo
 Recommends: nvidia-detect, firmware-sof-signed
 Priority: optional
 Section: x11
-Filename: pool/main/p/pine-desktop/pine-desktop_0.8.8.4_all.deb
-Size: 1586884
-SHA256: eb275a14d5a71ef513c5b53f10654ae024f8901c4a3d385ed9a991d6316ea4a5
-SHA1: 1df86393e62e4b221886d8d3bc051d51b5adcf1d
-MD5sum: ba082178c8694280f7d52f15a4962dcc
+Filename: pool/main/p/pine-desktop/pine-desktop_0.8.8.5_all.deb
+Size: 1588560
+SHA256: a0968052e890d90ad86aee3426aceeae679320b838658a3441f788f03421ad23
+SHA1: 6ecf5e9b4920c70cb31a1c3fed407943a716e1c4
+MD5sum: 21ef99590d0631705248bf6e2c7341a9
 Description: Pine OS desktop: settings, Quick Settings, themes and setup
  Pine Settings, Pine Quick Settings and the notification center, the Pine themes,
  window frames and boot screens, and how the Pine desktop is set up (taskbar, Files,
  Windows programs, archives, updates). Updating this package brings the changes of a
  new Pine OS version to an installed system.
-Pine-Version-Name: 0.8.8.4 patch4
+Pine-Version-Name: 0.8.8.5 patch5
 Pine-News:
- - Settings > Personalization > Animations: Smooth (soft, like on a Mac), Minimalistic (short and subtle) or Off. Windows, menus, the start menu, Quick Settings and notifications follow it
- - The desktop is revealed when you sign in: the Pine splash picture fades away once the taskbar and the desktop are ready. Signing out, restarting and shutting down fade to the same picture first
- - Dragging a window to the edge of the screen shows a soft preview of where it will land, and the preview glides there
- - Minimizing a window shrinks it towards the taskbar; restoring it grows it back
- - Switching between dark and light mode (or the accent color) fades instead of jumping
- - Settings > System > Sound > Click and close sounds: a very soft tap for every click and a soft blip when a window closes (off unless you turn it on)
- - Quick Settings and the notification center open at once, and fast clicks on the taskbar buttons are followed (they reverse in the middle of the animation)
- - Fixed: the Ethernet / volume and date buttons in the taskbar could freeze after Quick Settings was restarted
- - Fixed: changing the animation setting could stop the window effects until the next sign-in
+ - The desktop wallpaper stays after changing the screen size or resolution (it could turn white)
+ - Changing the resolution keeps your refresh rate when the new resolution supports it, instead of going back to 60 Hz
+ - The Start button comes back by itself if it ever disappears from the taskbar, and the Windows key brings it back first
+ - Dragging files on the desktop: the picture under the mouse no longer flies down off the screen when dropped
 Pine-News-hu:
- - Beállítások > Testreszabás > Animációk: Sima (lágy, mint egy Macen), Minimalista (rövid és visszafogott) vagy Ki. Az ablakok, a menük, a Start menü, a Gyorsbeállítások és az értesítések ehhez igazodnak
- - Bejelentkezéskor az asztal „kibomlik”: a Pine nyitókép eltűnik, amint a tálca és az asztal kész. A kijelentkezés, az újraindítás és a leállítás előbb ugyanebbe a képbe áttnik
- - Ha egy ablakot a képernyő széléhez húzol, halk előnézet mutatja, hová kerül, és az előnézet odacsúsz
- - Az ablak kisállítása a tálca felé zsugorodik, a visszaállítás visszanöveszti
- - A sötét és a világos mód (vagy a kiemelő szín) váltása áttnik az ugrás helyett
- - Beállítások > Rendszer > Hang > Kattintási és bezárási hangok: nagyon halk koppanás minden kattintásra, és halk hang az ablak bezárásakor (alapból ki van kapcsolva)
- - A Gyorsbeállítások és az értesítési központ azonnal megnyílik, és a tálca gombjaira gyors kattintásokat is követ (az animáció közepén megfordúl)
- - Javítva: a tálca Ethernet / hangerő és dátum gombja lefagyhatott a Gyorsbeállítások újraindítása után
- - Javítva: az animáció beállításának váltása leállíthatta az ablakeffektusokat a következő bejelentkezésig
+ - Az asztalháttér megmarad a képernyéret vagy a felbontás változtatása után (előfordult, hogy fehér lett)
+ - A felbontás változtatásakor a képfrissítési gyakoriság megmarad, ha az új felbontás támogatja, nem ugrik vissza 60 Hz-re
+ - A Start gomb önműködően visszajön, ha eltűnne a tálcáról, a Windows billentyű pedig előbb visszahozza
+ - Fájlok húzogatása az asztalon: az egér alatti kép elengedéskor már nem repül le a képernyő aljra
 
