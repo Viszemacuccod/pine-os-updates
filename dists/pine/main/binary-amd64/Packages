@@ -1,9 +1,9 @@
 Package: pine-desktop
-Version: 0.8.8.5
+Version: 0.8.9
 Architecture: all
 Maintainer: Pine OS project <pine-os@localhost>
-Installed-Size: 4248
-Depends: python3, python3-gi, gir1.2-gtk-3.0, gir1.2-gtk-4.0, gir1.2-adw-1, nemo, xfce4-panel, xfce4-notifyd, picom, xinput, x11-utils, mesa-utils,
+Installed-Size: 4548
+Depends: python3, python3-gi, python3-gi-cairo, libgtk-4-media-gstreamer, gstreamer1.0-plugins-good, gstreamer1.0-libav, gir1.2-gdkpixbuf-2.0, gir1.2-gtk-3.0, gir1.2-gtk-4.0, gir1.2-adw-1, nemo, xfce4-panel, xfce4-notifyd, picom, xinput, x11-utils, mesa-utils,
  file-roller, nemo-fileroller, 7zip, unar, zip, unzip, wmctrl, xdotool, fonts-inter, gettext-base, libglib2.0-bin,
  7zip-rar, unrar, bzip2, xz-utils, zstd, lzip, lz4, lzop, lrzip, brotli, ncompress, cabextract,
  arj, lhasa, unace, unalz, rpm2cpio, binutils, wine, wine64, fonts-wine, wine-binfmt, binfmt-support,
@@ -12,25 +12,29 @@ Depends: python3, python3-gi, gir1.2-gtk-3.0, gir1.2-gtk-4.0, gir1.2-adw-1, nemo
 Recommends: nvidia-detect, firmware-sof-signed
 Priority: optional
 Section: x11
-Filename: pool/main/p/pine-desktop/pine-desktop_0.8.8.5_all.deb
-Size: 1588560
-SHA256: a0968052e890d90ad86aee3426aceeae679320b838658a3441f788f03421ad23
-SHA1: 6ecf5e9b4920c70cb31a1c3fed407943a716e1c4
-MD5sum: 21ef99590d0631705248bf6e2c7341a9
+Filename: pool/main/p/pine-desktop/pine-desktop_0.8.9_all.deb
+Size: 1623564
+SHA256: 6131ce40061c81f3def424cd9a4133549fd2bd240448c8a5c65dca005e3b0e7e
+SHA1: 8a0e398e805e36c8c67644998765843a86c77abe
+MD5sum: 8e95b7697a5da01d8e32455511dcaa72
 Description: Pine OS desktop: settings, Quick Settings, themes and setup
  Pine Settings, Pine Quick Settings and the notification center, the Pine themes,
  window frames and boot screens, and how the Pine desktop is set up (taskbar, Files,
  Windows programs, archives, updates). Updating this package brings the changes of a
  new Pine OS version to an installed system.
-Pine-Version-Name: 0.8.8.5 patch5
+Pine-Version-Name: 0.8.9 beta
 Pine-News:
- - The desktop wallpaper stays after changing the screen size or resolution (it could turn white)
- - Changing the resolution keeps your refresh rate when the new resolution supports it, instead of going back to 60 Hz
- - The Start button comes back by itself if it ever disappears from the taskbar, and the Windows key brings it back first
- - Dragging files on the desktop: the picture under the mouse no longer flies down off the screen when dropped
+ - Files is a new file manager laid out like the Windows File Explorer: tabs, a path bar, a command bar (New, cut, copy, paste, rename, delete, Sort, View), Quick access and This PC on the left, a Details pane and a status bar
+ - Task Manager is new (Ctrl+Shift+Esc): Processes with apps grouped and End task / Force quit, Performance graphs for CPU, Memory, Disk and Network, App history, Startup apps, Users, Details and Services
+ - App Store is new: picks and categories, search across all apps, Get / Open / Uninstall, and Installed and Updates pages
+ - New apps: Calculator, Notes, Image Viewer and Media Player
+ - Network & Wi-Fi, Bluetooth & devices, Sound, Printers & scanners, Restore points, Updates and Display each open in their own window from the Start menu, with the same pages as in Settings
+ - Terminal in Pine's colors, Text Editor without menu bar and toolbar, and calmer tabs, menu bars and toolbars in the older apps
 Pine-News-hu:
- - Az asztalháttér megmarad a képernyéret vagy a felbontás változtatása után (előfordult, hogy fehér lett)
- - A felbontás változtatásakor a képfrissítési gyakoriság megmarad, ha az új felbontás támogatja, nem ugrik vissza 60 Hz-re
- - A Start gomb önműködően visszajön, ha eltűnne a tálcáról, a Windows billentyű pedig előbb visszahozza
- - Fájlok húzogatása az asztalon: az egér alatti kép elengedéskor már nem repül le a képernyő aljra
+ - Új fájlkezelő a Fájlok: elrendezése olyan, mint a Windows Fájlkezelőé: lapok, útvonalsáv, parancssáv (Új, kivágás, másolás, beillesztés, átnevezés, törlés, Rendezés, Nézet), balra a Gyors elérés és a Ez a gép, jobbra Részletek panel, alul állapotsor
+ - Új a Feladatkezelő (Ctrl+Shift+Esc): Folyamatok csoportosított alkalmazásokkal és Feladat befejezése / Kényszerített bezárás, Teljesítmény grafikonok a processzorról, memóriáról, lemezről és hálózatról, Alkalmazások előzményei, Indítási alkalmazások, Felhasználók, Részletek és Szolgáltatások
+ - Új az Alkalmazásbolt: ajánlatok és kategóriák, keresés az összes alkalmazás között, Telepítés / Megnyitás / Eltávolítás, valamint Telepítve és Frissítések oldal
+ - Új alkalmazások: Számológép, Jegyzetek, Képnézegető és Médialejátszó
+ - A Hálózat és Wi-Fi, a Bluetooth és eszközök, a Hang, a Nyomtatók és szkennerek, a Visszaállítási pontok, a Frissítések és a Kijelző a Start menüből külön ablakban is megnyílik, ugyanazokkal az oldalakkal, mint a Beállításokban
+ - A Terminál Pine színeiben, a Szövegszerkesztő menüsor és eszköztár nélkül, a régebbi alkalmazásokban pedig nyugodtabb lapok, menüsorok és eszköztárak
 
