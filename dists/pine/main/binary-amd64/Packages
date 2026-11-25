@@ -1,9 +1,9 @@
 Package: pine-desktop
-Version: 0.8.9.1
+Version: 0.8.9.2
 Architecture: all
 Maintainer: Pine OS project <pine-os@localhost>
-Installed-Size: 4548
-Depends: python3, python3-gi, python3-gi-cairo, libgtk-4-media-gstreamer, gstreamer1.0-plugins-good, gstreamer1.0-libav, gir1.2-gdkpixbuf-2.0, gir1.2-gtk-3.0, gir1.2-gtk-4.0, gir1.2-adw-1, nemo, xfce4-panel, xfce4-notifyd, picom, xinput, x11-utils, mesa-utils,
+Installed-Size: 4552
+Depends: python3, python3-gi, python3-gi-cairo, libgtk-4-media-gstreamer, gstreamer1.0-plugins-good, gstreamer1.0-libav, gir1.2-gdkpixbuf-2.0, gir1.2-flatpak-1.0, gir1.2-gtk-3.0, gir1.2-gtk-4.0, gir1.2-adw-1, nemo, xfce4-panel, xfce4-notifyd, picom, xinput, x11-utils, mesa-utils,
  file-roller, nemo-fileroller, 7zip, unar, zip, unzip, wmctrl, xdotool, fonts-inter, gettext-base, libglib2.0-bin,
  7zip-rar, unrar, bzip2, xz-utils, zstd, lzip, lz4, lzop, lrzip, brotli, ncompress, cabextract,
  arj, lhasa, unace, unalz, rpm2cpio, binutils, wine, wine64, fonts-wine, wine-binfmt, binfmt-support,
@@ -12,21 +12,19 @@ Depends: python3, python3-gi, python3-gi-cairo, libgtk-4-media-gstreamer, gstrea
 Recommends: nvidia-detect, firmware-sof-signed
 Priority: optional
 Section: x11
-Filename: pool/main/p/pine-desktop/pine-desktop_0.8.9.1_all.deb
-Size: 1624024
-SHA256: 5bbd3faddc5df655af43b23ff1385f139c172d025e95ad98e01fb186d3552b2b
-SHA1: ab13388cf5e68645f8a7c8f0d9bd1fee4dbaa03b
-MD5sum: aedc8d15b3d986174ae41a0bc0e8eab7
+Filename: pool/main/p/pine-desktop/pine-desktop_0.8.9.2_all.deb
+Size: 1625116
+SHA256: 3acc4b6f711088feff179efdc5aceebfae6d84d5f0ad62e18334a353d78a9fb9
+SHA1: 7a9a6ec0e9f880f8bda86bdc4a0ef82934febccf
+MD5sum: 016f9556414100f37ac7974bb636fc28
 Description: Pine OS desktop: settings, Quick Settings, themes and setup
  Pine Settings, Pine Quick Settings and the notification center, the Pine themes,
  window frames and boot screens, and how the Pine desktop is set up (taskbar, Files,
  Windows programs, archives, updates). Updating this package brings the changes of a
  new Pine OS version to an installed system.
-Pine-Version-Name: 0.8.9.1 patch1
+Pine-Version-Name: 0.8.9.2 patch2
 Pine-News:
- - The taskbar and the Start menu show the new Files, App Store, Image Viewer, Media Player and Task Manager instead of the old apps (Nemo, the old store, Ristretto, Parole...), also on computers that already had their own taskbar
- - If the desktop (wallpaper or icons) stops, for example after a screen change, it starts again by itself within a few seconds
+ - App Store: a progress bar with the percentage and the downloaded size while an app installs, updates or is removed, instead of a spinning circle
 Pine-News-hu:
- - A tálcán és a Start menüben az új Fájlok, Alkalmazásbolt, Képnézegető, Médialejátszó és Feladatkezelő látszik a régi alkalmazások (Nemo, a régi bolt, Ristretto, Parole...) helyett, azokon a gépeken is, amelyeknek már saját tálcájuk volt
- - Ha az asztal (a háttér vagy az ikonok) leáll, például képernyőváltás után, néhány másodpercen belül magától újraindul
+ - Alkalmazásbolt: telepítés, frissítés vagy eltávolítás közben folyamatjelző sáv mutatja a százalékot és a letöltött méretet a pörgő kör helyett
 
