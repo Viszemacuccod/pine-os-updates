@@ -1,8 +1,8 @@
 Package: pine-desktop
-Version: 0.8.9.2
+Version: 0.8.9.3
 Architecture: all
 Maintainer: Pine OS project <pine-os@localhost>
-Installed-Size: 4552
+Installed-Size: 4564
 Depends: python3, python3-gi, python3-gi-cairo, libgtk-4-media-gstreamer, gstreamer1.0-plugins-good, gstreamer1.0-libav, gir1.2-gdkpixbuf-2.0, gir1.2-flatpak-1.0, gir1.2-gtk-3.0, gir1.2-gtk-4.0, gir1.2-adw-1, nemo, xfce4-panel, xfce4-notifyd, picom, xinput, x11-utils, mesa-utils,
  file-roller, nemo-fileroller, 7zip, unar, zip, unzip, wmctrl, xdotool, fonts-inter, gettext-base, libglib2.0-bin,
  7zip-rar, unrar, bzip2, xz-utils, zstd, lzip, lz4, lzop, lrzip, brotli, ncompress, cabextract,
@@ -12,19 +12,19 @@ Depends: python3, python3-gi, python3-gi-cairo, libgtk-4-media-gstreamer, gstrea
 Recommends: nvidia-detect, firmware-sof-signed
 Priority: optional
 Section: x11
-Filename: pool/main/p/pine-desktop/pine-desktop_0.8.9.2_all.deb
-Size: 1625116
-SHA256: 3acc4b6f711088feff179efdc5aceebfae6d84d5f0ad62e18334a353d78a9fb9
-SHA1: 7a9a6ec0e9f880f8bda86bdc4a0ef82934febccf
-MD5sum: 016f9556414100f37ac7974bb636fc28
+Filename: pool/main/p/pine-desktop/pine-desktop_0.8.9.3_all.deb
+Size: 1626328
+SHA256: 7f400418843527e19327a17a201bb453a9c5f0b700ceddba817f5f8fd474f621
+SHA1: 1ca7075918d93e3b73adf458c1e221e41946037a
+MD5sum: 62732ed4cf8e4754fff029485e3e3881
 Description: Pine OS desktop: settings, Quick Settings, themes and setup
  Pine Settings, Pine Quick Settings and the notification center, the Pine themes,
  window frames and boot screens, and how the Pine desktop is set up (taskbar, Files,
  Windows programs, archives, updates). Updating this package brings the changes of a
  new Pine OS version to an installed system.
-Pine-Version-Name: 0.8.9.2 patch2
+Pine-Version-Name: 0.8.9.3 patch3
 Pine-News:
- - App Store: a progress bar with the percentage and the downloaded size while an app installs, updates or is removed, instead of a spinning circle
+ - The sign-in screen, the screen while signing out, restarting and shutting down, and the picture while the desktop loads now show your own wallpaper instead of Pine's
 Pine-News-hu:
- - Alkalmazásbolt: telepítés, frissítés vagy eltávolítás közben folyamatjelző sáv mutatja a százalékot és a letöltött méretet a pörgő kör helyett
+ - A bejelentkező képernyő, a kijelentkezés, újraindítás és leállítás képernyője, valamint az asztal betöltése közbeni kép mostantól a saját háttérképedet mutatja a Pine háttere helyett
 
