@@ -1,5 +1,5 @@
 Package: pine-desktop
-Version: 0.8.9
+Version: 0.8.9.1
 Architecture: all
 Maintainer: Pine OS project <pine-os@localhost>
 Installed-Size: 4548
@@ -12,29 +12,21 @@ Depends: python3, python3-gi, python3-gi-cairo, libgtk-4-media-gstreamer, gstrea
 Recommends: nvidia-detect, firmware-sof-signed
 Priority: optional
 Section: x11
-Filename: pool/main/p/pine-desktop/pine-desktop_0.8.9_all.deb
-Size: 1623564
-SHA256: 6131ce40061c81f3def424cd9a4133549fd2bd240448c8a5c65dca005e3b0e7e
-SHA1: 8a0e398e805e36c8c67644998765843a86c77abe
-MD5sum: 8e95b7697a5da01d8e32455511dcaa72
+Filename: pool/main/p/pine-desktop/pine-desktop_0.8.9.1_all.deb
+Size: 1624024
+SHA256: 5bbd3faddc5df655af43b23ff1385f139c172d025e95ad98e01fb186d3552b2b
+SHA1: ab13388cf5e68645f8a7c8f0d9bd1fee4dbaa03b
+MD5sum: aedc8d15b3d986174ae41a0bc0e8eab7
 Description: Pine OS desktop: settings, Quick Settings, themes and setup
  Pine Settings, Pine Quick Settings and the notification center, the Pine themes,
  window frames and boot screens, and how the Pine desktop is set up (taskbar, Files,
  Windows programs, archives, updates). Updating this package brings the changes of a
  new Pine OS version to an installed system.
-Pine-Version-Name: 0.8.9 beta
+Pine-Version-Name: 0.8.9.1 patch1
 Pine-News:
- - Files is a new file manager laid out like the Windows File Explorer: tabs, a path bar, a command bar (New, cut, copy, paste, rename, delete, Sort, View), Quick access and This PC on the left, a Details pane and a status bar
- - Task Manager is new (Ctrl+Shift+Esc): Processes with apps grouped and End task / Force quit, Performance graphs for CPU, Memory, Disk and Network, App history, Startup apps, Users, Details and Services
- - App Store is new: picks and categories, search across all apps, Get / Open / Uninstall, and Installed and Updates pages
- - New apps: Calculator, Notes, Image Viewer and Media Player
- - Network & Wi-Fi, Bluetooth & devices, Sound, Printers & scanners, Restore points, Updates and Display each open in their own window from the Start menu, with the same pages as in Settings
- - Terminal in Pine's colors, Text Editor without menu bar and toolbar, and calmer tabs, menu bars and toolbars in the older apps
+ - The taskbar and the Start menu show the new Files, App Store, Image Viewer, Media Player and Task Manager instead of the old apps (Nemo, the old store, Ristretto, Parole...), also on computers that already had their own taskbar
+ - If the desktop (wallpaper or icons) stops, for example after a screen change, it starts again by itself within a few seconds
 Pine-News-hu:
- - Új fájlkezelő a Fájlok: elrendezése olyan, mint a Windows Fájlkezelőé: lapok, útvonalsáv, parancssáv (Új, kivágás, másolás, beillesztés, átnevezés, törlés, Rendezés, Nézet), balra a Gyors elérés és a Ez a gép, jobbra Részletek panel, alul állapotsor
- - Új a Feladatkezelő (Ctrl+Shift+Esc): Folyamatok csoportosított alkalmazásokkal és Feladat befejezése / Kényszerített bezárás, Teljesítmény grafikonok a processzorról, memóriáról, lemezről és hálózatról, Alkalmazások előzményei, Indítási alkalmazások, Felhasználók, Részletek és Szolgáltatások
- - Új az Alkalmazásbolt: ajánlatok és kategóriák, keresés az összes alkalmazás között, Telepítés / Megnyitás / Eltávolítás, valamint Telepítve és Frissítések oldal
- - Új alkalmazások: Számológép, Jegyzetek, Képnézegető és Médialejátszó
- - A Hálózat és Wi-Fi, a Bluetooth és eszközök, a Hang, a Nyomtatók és szkennerek, a Visszaállítási pontok, a Frissítések és a Kijelző a Start menüből külön ablakban is megnyílik, ugyanazokkal az oldalakkal, mint a Beállításokban
- - A Terminál Pine színeiben, a Szövegszerkesztő menüsor és eszköztár nélkül, a régebbi alkalmazásokban pedig nyugodtabb lapok, menüsorok és eszköztárak
+ - A tálcán és a Start menüben az új Fájlok, Alkalmazásbolt, Képnézegető, Médialejátszó és Feladatkezelő látszik a régi alkalmazások (Nemo, a régi bolt, Ristretto, Parole...) helyett, azokon a gépeken is, amelyeknek már saját tálcájuk volt
+ - Ha az asztal (a háttér vagy az ikonok) leáll, például képernyőváltás után, néhány másodpercen belül magától újraindul
 
