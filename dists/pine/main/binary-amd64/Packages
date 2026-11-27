@@ -1,9 +1,9 @@
 Package: pine-desktop
-Version: 0.8.9.3
+Version: 0.8.9.4
 Architecture: all
 Maintainer: Pine OS project <pine-os@localhost>
-Installed-Size: 4564
-Depends: python3, python3-gi, python3-gi-cairo, libgtk-4-media-gstreamer, gstreamer1.0-plugins-good, gstreamer1.0-libav, gir1.2-gdkpixbuf-2.0, gir1.2-flatpak-1.0, gir1.2-gtk-3.0, gir1.2-gtk-4.0, gir1.2-adw-1, nemo, xfce4-panel, xfce4-notifyd, picom, xinput, x11-utils, mesa-utils,
+Installed-Size: 4984
+Depends: python3, python3-gi, python3-gi-cairo, libgtk-4-media-gstreamer, gstreamer1.0-plugins-good, gstreamer1.0-libav, gir1.2-gdkpixbuf-2.0, gir1.2-flatpak-1.0, gir1.2-polkit-1.0, lxpolkit, gir1.2-gtk-3.0, gir1.2-gtk-4.0, gir1.2-adw-1, nemo, xfce4-panel, xfce4-notifyd, picom, xinput, x11-utils, mesa-utils,
  file-roller, nemo-fileroller, 7zip, unar, zip, unzip, wmctrl, xdotool, fonts-inter, gettext-base, libglib2.0-bin,
  7zip-rar, unrar, bzip2, xz-utils, zstd, lzip, lz4, lzop, lrzip, brotli, ncompress, cabextract,
  arj, lhasa, unace, unalz, rpm2cpio, binutils, wine, wine64, fonts-wine, wine-binfmt, binfmt-support,
@@ -12,19 +12,31 @@ Depends: python3, python3-gi, python3-gi-cairo, libgtk-4-media-gstreamer, gstrea
 Recommends: nvidia-detect, firmware-sof-signed
 Priority: optional
 Section: x11
-Filename: pool/main/p/pine-desktop/pine-desktop_0.8.9.3_all.deb
-Size: 1626328
-SHA256: 7f400418843527e19327a17a201bb453a9c5f0b700ceddba817f5f8fd474f621
-SHA1: 1ca7075918d93e3b73adf458c1e221e41946037a
-MD5sum: 62732ed4cf8e4754fff029485e3e3881
+Filename: pool/main/p/pine-desktop/pine-desktop_0.8.9.4_all.deb
+Size: 1968276
+SHA256: 431eff2c2cac0457e0d3f04b4bf17c8ae19ad9b7581c9737f5707421e6c43ece
+SHA1: a856155fecc54c7cd8d0f1cd65b9d9e6c013e3e1
+MD5sum: 73f6490614474132d3a94787fbf3b1ba
 Description: Pine OS desktop: settings, Quick Settings, themes and setup
  Pine Settings, Pine Quick Settings and the notification center, the Pine themes,
  window frames and boot screens, and how the Pine desktop is set up (taskbar, Files,
  Windows programs, archives, updates). Updating this package brings the changes of a
  new Pine OS version to an installed system.
-Pine-Version-Name: 0.8.9.3 patch3
+Pine-Version-Name: 0.8.9.4 pre-release
 Pine-News:
- - The sign-in screen, the screen while signing out, restarting and shutting down, and the picture while the desktop loads now show your own wallpaper instead of Pine's
+ - Pin apps to the taskbar: right-click them, or drag them onto it, like on Windows
+ - Simpler right-click menus in the Start menu, on the taskbar and on the desktop
+ - When something needs administrator rights, a new prompt dims the screen and asks, in Pine's own look
+ - Desktop icons are bigger and closer together
+ - Many more smooth animations in the "Smooth" mode
+ - Files and the App Store are faster, and Pine uses the processor less in the background
+ - The sign-in screen shows the date in the system's language
 Pine-News-hu:
- - A bejelentkező képernyő, a kijelentkezés, újraindítás és leállítás képernyője, valamint az asztal betöltése közbeni kép mostantól a saját háttérképedet mutatja a Pine háttere helyett
+ - Alkalmazások rögzítése a tálcára: jobb kattintással vagy rájuk húzva, mint Windowsban
+ - Egyszerűbb jobbkattintásos menük a Start menüben, a tálcán és az asztalon
+ - Ha valamihez rendszergazdai jog kell, új ablak kér engedélyt az elsötétített képernyőn, Pine kinézettel
+ - Nagyobb asztali ikonok, kisebb hézagokkal
+ - Sokkal több finom animáció a „Sima” módban
+ - Gyorsabb Fájlok és Alkalmazásbolt, és a Pine kevesebb processzort használ a háttérben
+ - A bejelentkező képernyő a rendszer nyelvén írja ki a dátumot
 
